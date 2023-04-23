@@ -1,0 +1,32 @@
+:root {
+  --clr-900: #03045e;
+  --clr-800: #023e8a;
+  --clr-700: #0077b6;
+  --clr-600: #0096c7;
+  --clr-500: #00b4d8;
+  --clr-400: #48cae4;
+  --clr-300: #90e0ef;
+  --clr-200: #ade8f4;
+  --clr-100: #caf0f8;
+  --clr-000: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--clr-100);
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 70rem;
+}

@@ -19,7 +19,7 @@
 
 .title-text {
   text-align: center;
-  color: var(--clr-900);
+  color: var(--new-900);
 }
 
 h1 {
@@ -42,12 +42,6 @@ h1 {
 .mountain {
   position: relative;
   max-width: 100%;
-}
-
-hr {
-  margin: 20px auto;
-  border-top: var(--clr-700) dotted 10px;
-  width: 80px;
 }
 
 @media (max-width: 600px) {

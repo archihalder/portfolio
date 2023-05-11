@@ -1,15 +1,15 @@
 .projects {
   text-align: center;
-  background-color: var(--clr-300);
+  background-color: var(--new-200);
   border-radius: 15px;
-  margin: auto 1rem;
-  padding: 1rem 1rem;
+  margin: 0 2rem;
+  padding: 1rem;
   /* border: 2px solid red; */
 }
 
 .projects h2 {
   font-size: 2rem;
-  color: var(--clr-900);
+  color: var(--new-900);
 }
 
 .cardholder {
@@ -25,9 +25,7 @@
 .card {
   /* border: 2px solid red; */
   padding: 1rem;
-  width: 12rem;
-  background-color: var(--clr-600);
-  color: white;
+  background-color: var(--new-600);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
@@ -37,14 +35,14 @@
 .project-title {
   font-size: 1.2rem;
   padding-bottom: 1rem;
-  color: var(--clr-100);
+  color: var(--new-100);
   height: max-content;
 }
 
 .description {
   font-size: 1rem;
-  color: black;
-  height: max-content;
+  color: #000;
+  height: 2rem;
 }
 
 .url {
@@ -61,7 +59,20 @@
   height: 2rem;
   width: 10ch;
   text-decoration: none;
-  background-color: var(--clr-700);
-  color: var(--clr-100);
+  background-color: var(--new-900);
+  color: var(--new-100);
   border-radius: 10px;
+}
+
+@media (800px <= width <= 975px) {
+  .url {
+    flex-direction: column;
+  }
+}
+
+@media (width <= 800px) {
+  .cardholder {
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
 }

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/intro.css" />
     <link rel="stylesheet" href="./css/project.css" />
+    <link rel="stylesheet" href="./css/exp.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,16 +48,11 @@
             a recent graduate with a Bachelor's degree in Computer Science.
           </p>
           <p>
-            As a fresher, I am excited to showcase my skills, projects, and
-            experience that I have gained throughout my academic journey. This
-            portfolio contains a variety of projects that I have completed
-            during my studies, such as <span>web development</span>,
-            <span>machine learning</span>, and <span>data analysis</span>.
-          </p>
-          <p>
-            I am eager to learn and grow as a professional, and I believe that
-            this portfolio will provide an excellent introduction to who I am
-            and what I can offer.
+            I am excited to showcase my skills, projects, and experience that I
+            have gained throughout my academic journey. This portfolio contains
+            a variety of projects that I have completed during my studies, such
+            as <span>web development</span>, <span>machine learning</span>, and
+            <span>data analysis</span>.
           </p>
         </div>
         <div class="tech-title">I'm familiar with</div>
@@ -126,11 +124,11 @@
           </thead>
           <tbody>
             <tr>
-              <td>2023 - Present</td>
+              <td class="year">2023 - Present</td>
               <td>Software Engineer at Brillio</td>
             </tr>
             <tr>
-              <td>2020 - 2021</td>
+              <td class="year">2020 - 2021</td>
               <td>Community Executive at SRM MIC</td>
             </tr>
           </tbody>
@@ -146,18 +144,71 @@
           your feedback and would love to discuss any potential opportunities.
           Let's connect and create something great together!
         </p>
-        <form action="">
-          <label for="">Email</label><br />
-          <input type="email" name="email" id="" /> <br />
-          <label for="">Message</label> <br />
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
-        </form>
+        <div class="form">
+          <form action="">
+            <div class="row">
+              <div class="col-25">
+                <label for="">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="fname" id="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="lname" id="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="email" name="email" id="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="">Message</label>
+              </div>
+              <div class="col-75">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
     </div>
 
     <!-- Footer Section -->
-    <footer>
-      <div class="footer">© Archi Halder</div>
-    </footer>
+    <div class="footer">
+      <div class="socials">
+        <div class="icons">
+          <a href="#"
+            ><img class="icon-img" src="./images/github.png" alt="github"
+          /></a>
+        </div>
+        <div class="icons">
+          <a href="#"
+            ><img class="icon-img" src="./images/linkedin.png" alt="github"
+          /></a>
+        </div>
+        <div class="icons">
+          <a href="#"
+            ><img class="icon-img" src="./images/twitter.png" alt="github"
+          /></a>
+        </div>
+        <div class="icons">
+          <a href="#"
+            ><img class="icon-img" src="./images/instagram.png" alt="github"
+          /></a>
+        </div>
+      </div>
+      <div class="copyright">Archi Halder © 2023</div>
+    </div>
   </body>
 </html>

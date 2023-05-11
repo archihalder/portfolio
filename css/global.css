@@ -9,6 +9,11 @@
   --clr-200: #ade8f4;
   --clr-100: #caf0f8;
   --clr-000: #fff;
+
+  --new-900: #112d4e;
+  --new-600: #3f72af;
+  --new-200: #dbe2ef;
+  --new-100: #f9f7f7;
 }
 
 * {
@@ -17,7 +22,7 @@
 }
 
 body {
-  background-color: var(--clr-100);
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -28,5 +33,5 @@ body {
 }
 
 .container {
-  max-width: 70rem;
+  max-width: 60rem;
 }

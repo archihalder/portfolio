@@ -35,3 +35,9 @@ body {
 .container {
   max-width: 60rem;
 }
+
+hr {
+  margin: 20px auto;
+  border-top: var(--new-900) dotted 10px;
+  width: 80px;
+}

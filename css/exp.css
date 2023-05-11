@@ -1,0 +1,27 @@
+.experience {
+  background-color: var(--new-200);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  color: var(--new-900);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-radius: 10px;
+  background-color: var(--new-600);
+  padding: 1rem;
+}
+
+th {
+  color: var(--new-100);
+}
+
+td {
+  padding: 0.5rem;
+  color: #000;
+}

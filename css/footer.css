@@ -1,0 +1,27 @@
+.footer {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icons {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--clr-600);
+}
+
+.icon-img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem 0.5rem;
+}

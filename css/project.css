@@ -73,6 +73,17 @@
 @media (width <= 800px) {
   .cardholder {
     grid-template-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    max-width: 30rem;
+  }
+}
+
+@media (width <= 580px) {
+  .cardholder {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .card {
+    max-width: 15rem;
   }
 }

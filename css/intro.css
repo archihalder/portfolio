@@ -1,16 +1,18 @@
 .introduction {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 3fr 1fr 1fr;
-  gap: 5px;
   margin: 0 2rem;
   background-color: var(--new-200);
   border-radius: 15px;
 }
 
+.top-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
+}
+
 .profile-pic {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .profile-pic img {
@@ -20,6 +22,7 @@
 
 .intro {
   padding: 1.5rem;
+  /* padding-right: 3rem; */
   text-align: justify;
 }
 
@@ -36,7 +39,7 @@
   grid-column: span 2;
   text-align: center;
   font-size: 2rem;
-  margin: 0;
+  margin: 1rem auto;
   align-self: center;
   color: var(--new-900);
 }
@@ -44,8 +47,11 @@
 .tech-stack {
   grid-column: span 2;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
 }
 
 .skill {
@@ -64,5 +70,19 @@
   .profile-pic img {
     height: max-content;
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  
+  .profile-pic {
+    display: flex;
+    justify-content: center;
   }
 }

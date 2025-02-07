@@ -87,3 +87,9 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.home-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

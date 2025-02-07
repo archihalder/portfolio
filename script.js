@@ -14,12 +14,12 @@ function updateNavbar() {
             const rect = section.getBoundingClientRect();
 
             // check if section is at least partially visible
-            if (rect.top < window.innerHeight && rect.bottom > 0) {
+            if (rect.top <= window.innerHeight / 2) {
                 currentSection = section.getAttribute("data-title");
             }
 
             // store the last visible section as a fallback
-            if (rect.top < window.innerHeight / 2) {
+            if (rect.top > window.innerHeight) {
                 lastVisibleSection = section.getAttribute("data-title");
             }
         });
